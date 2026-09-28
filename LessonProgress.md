@@ -1,8 +1,12 @@
 ### Project Timeline
 
 
-#### 📅 27 Sept. 2026
-> * 
+#### 🗓 27 Sept. 2026
+> 🛢 Created all the tutorial, quizzes and assessments folders          
+> 🛢 Wrote 1st draft of the README, Lesson progress, Notes and Cheat Sheet documents
+
+#### 🗓 28 Sept. 2026
+> 🛢 Setup the SQLite database and all the tables for the ***tutorials***
 
 
 ----------------------------

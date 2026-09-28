@@ -27,6 +27,7 @@ cd SQLZoo-local
 1. Create a file called **schema.sql**, we will create the table here.
 ```
 -- schema.sql
+DROP TABLE IF EXISTS world;
 CREATE TABLE world (
     name TEXT,
     continent TEXT,
@@ -78,6 +79,24 @@ SELECT * FROM world;
 >[!Tip]             
 > You can create multiple tables using this same format and files. There is no need to create a new database; just keep adding tables.
 
+### SQLZoo Database Structure
+
+    SQLZoo_local/                           
+    ├── world                                                                 
+    ├── noble                                                                 
+    ├── goal                                
+    ├── team                        
+    ├── player                                                    
+    ├── movie                                        
+    ├── actor                                               
+    ├── casting         
+    ├── teacher         
+    ├── dept                                              
+    ├── nss         
+    ├── ge                      
+    ├── stops           
+    └── route    
+
 ## Writing the solutions
 
 #### Step 1. Create a folder to store the solutions for each lesson                  
@@ -95,7 +114,7 @@ sqlite3 SQLZoo-local/SQLZoo.db ".read 00_select_basic/solutions.sql"
 
 -- If you would like the data to be displayed with columns and headers
 sqlite3 -header -column SQLZoo-local/SQLZoo.db ".read 00_select_basic/solutions.sql"
-```
+```                
 
 ## Lesson Progress
 
