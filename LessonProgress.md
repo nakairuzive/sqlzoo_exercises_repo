@@ -7,7 +7,6 @@
 > 🛢 Set up the SQLite database and all the tables for the ***tutorials***        
 > 🛢 Set up all the questions in the solution.sql files for each tutorial        
 
----
 
 ### Lesson Progress
 #### Tutorials
